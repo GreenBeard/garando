@@ -1,6 +1,6 @@
 [package]
 name = "garando_errors"
-version = "0.1.0" # remember to update html_root_url
+version = "0.1.1" # remember to update html_root_url
 authors = ["Yuki Okushi <huyuumi.dev@gmail.com>"]
 license = "MIT/Apache-2.0"
 description = "Backport of librustc_errors"
@@ -12,7 +12,7 @@ edition = "2018"
 
 [dependencies]
 libc = "0.2"
-serde = { version = "1.0", features = ["derive"] }
+serde = { version = "^1.0.103", features = ["derive"] }
 garando_pos = { version = "0.1", path = "../garando_pos" }
 term = "0.6"
 unicode-xid = "0.2"

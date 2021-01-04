@@ -1,6 +1,6 @@
 [package]
 name = "garando_pos"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yuki Okushi <huyuumi.dev@gmail.com>"]
 license = "MIT/Apache-2.0"
 description = "Backport of libsyntax_pos"
@@ -11,4 +11,4 @@ include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-
 edition = "2018"
 
 [dependencies]
-serde = { version = "1.0", features = ["derive"] }
+serde = { version = "^1.0.103", features = ["derive"] }

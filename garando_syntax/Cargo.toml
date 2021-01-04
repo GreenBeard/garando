@@ -1,6 +1,6 @@
 [package]
 name = "garando_syntax"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yuki Okushi <huyuumi.dev@gmail.com>"]
 license = "MIT/Apache-2.0"
 description = "Backport of libsyntax"
@@ -12,8 +12,8 @@ edition = "2018"
 
 [dependencies]
 bitflags = "1.2.1"
-log = "0.4"
-serde = { version = "1.0", features = ["derive", "rc"] }
+log = "^0.4.4"
+serde = { version = "^1.0.103", features = ["derive", "rc"] }
 serde_json = "1.0"
 garando_errors = { version = "0.1", path = "../garando_errors" }
 garando_pos = { version = "0.1", path = "../garando_pos" }
